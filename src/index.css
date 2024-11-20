@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.link-button {
+  @apply text-xl font-semibold pr-4 pl-4 hover:text-primary hover:underline;
+}
+
+.section-container {
+  @apply w-full max-w-[1300px] max-md:p-4;
+}
+
+.section-title {
+  @apply font-semibold p-2 border-[1px] rounded-full border-gray-400 w-fit max-md:text-xs;
+}
+
+.rounded-primary-button {
+  @apply bg-primary p-4 flex gap-4 w-fit rounded-full items-center;
+}
