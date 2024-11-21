@@ -2,6 +2,7 @@ import Footer from '../components/Footer'
 import AboutEnterprise from '../features/homePage/AboutEnterprise'
 import Advices from '../features/homePage/Advices'
 import Certifications from '../features/homePage/Certifications'
+import Design from '../features/homePage/Design'
 import EnterpriseProject from '../features/homePage/EnterpriseProject'
 import GallerySection from '../features/homePage/GallerySection'
 import Hero from '../features/homePage/Hero'
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Advices />
       <GallerySection />
       <Certifications />
+      <Design/>
       <EnterpriseProject />
       <Footer />
     </div>

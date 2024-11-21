@@ -10,6 +10,7 @@ import portfoloi2 from "../assets/portfolio-2.jpg";
 import portfoloi3 from "../assets/portfolio-5.jpg";
 import portfoloi4 from "../assets/portfolio-6.jpg";
 import img_2 from "../assets/image-2.jpg";
+import img_3 from "../assets/dQwsZ2qCSRaJ_R-pMkvRNw.jpeg";
 import blog1 from "../assets/blog-6.jpg";
 import blog2 from "../assets/blog-1.jpg";
 import blog3 from "../assets/blog-2.jpg";
@@ -32,6 +33,7 @@ export const images = {
   GAL3: portfoloi3,
   GAL4: portfoloi4,
   IMG2: img_2,
+  IMG3: img_3,
   BLOG1: blog1,
   BLOG2: blog3,
   BLOG3: blog2,
