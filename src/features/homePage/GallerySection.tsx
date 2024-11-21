@@ -1,7 +1,7 @@
 import { useState } from "react";
-import GalleryItem from "../../components/galleryItem";
 import { gallery } from "../../constants/gallery";
 import RoundedLinkButton from "../../components/RoundedLinkButton";
+import GalleryItem from "../../components/GalleryItem";
 
 const GallerySection = () => {
   const [hoverItem, setHoverItem] = useState(0);
