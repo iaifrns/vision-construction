@@ -12,7 +12,7 @@ const TopBar = () => {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="p-2  gap-8 rounded-full items-center bg-white pr-6 pl-6 hidden">
+        <div className="p-2 gap-8 rounded-full items-center bg-white pr-6 pl-6 hidden">
           <a href="" className="link-button">
             Home
           </a>

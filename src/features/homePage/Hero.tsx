@@ -14,14 +14,13 @@ const Hero = () => {
         </div>
       </div>
       <video
-        autoPlay
+        className="h-full w-full p-0 pointer-events-none object-cover"
         loop
         muted
+        autoPlay
         playsInline
-        className="h-full w-full object-cover pointer-events-none"
       >
-        <source src={video.HEROVIDEO} type="video/mp4"></source>
-        your browser donot support this
+        <source src={video.HEROVIDEO}></source>
       </video>
     </div>
   );
